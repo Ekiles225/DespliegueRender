@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const pool = new pg.Pool({
     connectionString: process.env.DATABASE_URL,
-    ssl: true
+    //ssl: true
 })
 
 const port = process.env.PORT || 3000;
